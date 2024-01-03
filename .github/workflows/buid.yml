@@ -23,4 +23,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: Lord Foo/search_google_pt
+          tags: rmlsantos/search_google_pt
