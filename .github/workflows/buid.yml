@@ -23,4 +23,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: rsantos.professional@gmail.com/search_google_pt
+          tags: RStPro/search_google_pt
