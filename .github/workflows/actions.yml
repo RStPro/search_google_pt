@@ -14,8 +14,8 @@ jobs:
         uses: dependency-check/Dependency-Check_Action@main
         id: Depcheck
         with:
-          project: "test"
-          path: "."
+          project: "search_google_pt"
+          path: "../../"
           format: "HTML"
           out: "reports" # this is the default, no need to specify unless you wish to override it
           args: >
