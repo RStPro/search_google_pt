@@ -1,1 +1,1 @@
-Test run for lesson 2 on Application Security
+This project was created as a proof of concept to show that without proper validation, XSS will happen!
