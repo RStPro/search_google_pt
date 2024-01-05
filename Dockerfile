@@ -11,4 +11,4 @@ COPY . /var/www/html
 EXPOSE 80
 
 # Start Apache when the container runs
-CMD [ "apache2 foreground" ]
+CMD [ "apache2.foreground" ]
