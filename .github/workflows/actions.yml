@@ -1,5 +1,5 @@
 on: ["push", "pull_request"]
-name: "Secure Pipeline Test - Dependency Check"
+name: "Secure Pipeline Test - Dependency Check - SCA"
 
 jobs:
   depchecktest:
