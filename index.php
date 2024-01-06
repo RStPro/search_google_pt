@@ -14,7 +14,7 @@
   <center>
     <div class="logo">
       <img alt="Google" src="/google.jpg">
-    
+
     </div>
     <div class="bar" style="display: flex; height: 50px;">                                                                                        <form action="" method="GET" id="query">                                                                                                      &nbsp;&nbsp;
         <table style="width:100%; margin-top: -18px">
@@ -29,11 +29,6 @@
     </div>
 
 <?php
- header('X-XSS-Protection: 0');
-  header('X-Frame-Options: deny');
-   header('X-Content-Type-Options: nosniff');
-   header('Content-Type: text/html; charset=UTF-8');
-
   if(!isset($_GET['query'])){
          if(empty($_GET)){
                die();
