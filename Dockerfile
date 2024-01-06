@@ -1,5 +1,5 @@
 # Origin image
-FROM php:8-fpm
+FROM php:apache
 
 # Set working Directory to /var/www/html
 WORKDIR /var/www/html
