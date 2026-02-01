@@ -1,5 +1,5 @@
 # Origin image
-FROM php:apache
+FROM php:8.5.3RC1-apache-trixie
 
 # Set working Directory to /var/www/html
 WORKDIR /var/www/html
